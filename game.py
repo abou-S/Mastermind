@@ -54,7 +54,7 @@ def main_game_loop():
         correct_position, incorrrect_position =validate_proposal(secret_combination,player_combination)
 
         if (correct_position == 4) :
-            print("You win !")
+            print("Victoire !")
             win = True
         else :
             trials +=1
