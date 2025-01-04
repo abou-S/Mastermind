@@ -5,7 +5,7 @@ class Game:
     def __init__(self):
         self.secret_combination = self.generate_secret_combination()
         print(self.secret_combination)
-        self.trials = 5
+        self.trials = 10
         self.correct_position = 0
         self.incorrect_position = 0
         self.player_combination = None
@@ -35,7 +35,7 @@ class Game:
         """Réinitialise le jeu avec une nouvelle combinaison secrète."""
         self.secret_combination = self.generate_secret_combination()
         print(self.secret_combination)
-        self.trials = 5
+        self.trials = 10
         self.correct_position = 0
         self.incorrect_position = 0
         self.player_combination = None
